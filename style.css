@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css?family=Jura");
+
+body {
+	margin: 0;
+	font-size: 2em;
+	font-family: 'Jura', sans-serif;
+	color: #fff;
+}
+
+.page-wrapper {
+	background: #333;
+}
+
+header, .summary {
+	background-image:url("Bio_Faerie_Glen_Stretched.jpg");
+	background-attachment: fixed;
+	text-align: center;
+}
+
+/* p {
+	color: #8010cc;
+} */
+
+header {
+	padding: 1em 0em 0em;
+}
+
+h1 {
+	font-size: 3em;
+}
+h2 {
+	font-size: 1.5em;
+}
+.summary {
+	/* padding: 1em 6em 3em; */
+	border-bottom: solid;
+	font-size: 1em;
+}
+
+.interests {
+	background-image:url("Arch.JPG");
+}
+
+header h2 {
+	margin-bottom: 0;
+}
+
+.summary {
+	/* padding: 20px; */
+  img src="Bio_Faerie_Glen.JPG" alt="bio_photo" style="width: 300px;"
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+/* .sidebar {
+	background: #fc783e;
+} */
+
+/* .main {
+	margin: auto;
+} */
+
+.interests, .strengths, .photography-samples {
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 6%;
+	border-bottom: solid;
+}
+
+.requirements, footer {
+	display: flex;
+	color: #fff;
+	font-size: .5em;
+	border-bottom: solid;
+}
+
+.strengths {
+	background-image:url("Phonebooths.JPG");
+}
+
+.wrapper {
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+.photography-samples {
+	flex-grow: 5;
+	/* border-top: solid; */
+	/* background: #fc783e; */
+	border-bottom: solid;
+	text-align: center;
+	padding: 6%;
+}
+
+.photography-samples {
+	background-image:url("Glencoe.JPG");
+}
+
+.photography-samples ul {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	/* justify-content: left; */
+	padding: 0;
+	text-align: left;
+}
+
+
+.photography-samples li {
+	display: flex;
+	margin: 0 0 25px;
+	flex-direction: column;
+	/* justify-content: center; */
+	/*     width: 33%; */
+	flex: 1;
+	color: rgba(88, 60, 50, 0.58);
+	font-size: 0.6em;
+	flex-basis: 25%;
+	/* box-shadow: 10px 10px #F4970A; */
+}
+
+a {
+	text-decoration:none;
+	color: #fff;
+	font-size: 2em;
+}
+
+
+
+.github-archives {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	background-color: #333;
+	border-right: solid;
+}
+
+.github-archives a {
+	color: #fc783e;
+	font-size: 1em;
+}
+
+.github-archives ul, .website-resources ul {
+	padding: 0;
+	list-style: none;
+	display: flex;
+	color: #fc783e;
+	justify-content:center;
+	flex-wrap:wrap;
+}
+
+.github-archives li, .website-resources li {
+	font-size: 0.6em;
+	margin-right: 10px;
+	margin-bottom:20px;
+}
+
+/* .website-resources {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	background: #2196F3;
+	border-left: solid;
+} */
+
+/* .website-resources li {
+	color: rgba(88, 60, 50, 0.58);
+}
+
+.website-resources a {
+	text-decoration: none;
+	color: #333;
+	font-size: 1em;
+} */
+
+.github-archives, .website-resources {
+	height:50vh;
+	min-height:300px;
+}

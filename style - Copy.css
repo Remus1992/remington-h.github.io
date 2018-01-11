@@ -1,0 +1,59 @@
+h1{
+  background: burlywood;
+}
+
+body main h1{
+  background: beige;
+}
+
+main h1{
+  background: grey;
+}
+
+h1{
+  background: red;
+}
+/* the last h1 will be the one used but can be 'trumped' by using 'main' */
+
+.aboutLink {
+  background: purple;
+}
+
+/* .aboutLink {
+  background: purple!important;
+} */
+
+
+nav li a {
+  background: tan;
+}
+
+img {
+  image-orientation: from-image;
+}
+
+section p {
+  color: #3ac0ff
+  background-color: linear-gradient(red,yellow);
+  background-image: url(https://www.arborday.org/images/hero/medium/hero-ring-of-trees-looking-up.jpg);
+  background-position: center;
+  bacground-size: contain;
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+  box-shadow: 20px 20px 20px 20px #3D3EF inset 20px 20px 20px 20px red;
+}
+
+img {
+  background: red;
+  width: 80%; /* allows for shrinking/ expanding of image with page */
+  height: 100vh;
+  padding: auto;
+  margin: auto;
+  image-orientation: from-image;
+}
+
+@media only screen and (min-width: 900px) {
+  body {
+    background: #333;
+  }
+}
